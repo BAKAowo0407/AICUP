@@ -1,3 +1,5 @@
+若下載下來資料夾名稱為 AICUP-main ，須改成 AICUP ，並放置於D槽，或是所有的路徑都要更改@@
+
 安裝環境：
 
     1. 安裝 [Visual Studio Code](https://code.visualstudio.com/)
