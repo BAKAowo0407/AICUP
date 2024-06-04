@@ -66,12 +66,12 @@
     1. 使用 pix2pix_3(PC).ipynb，進行 "Road Testing" ，在Visual Studio Code的終端(進虛擬環境)，輸入指令ˋpython D:/AICUP/AI_cup_demo_code/pytorch-CycleGAN-and-pix2pix-master/test.py --dataroot D:/AICUP/AI_cup_demo_code/pytorch-CycleGAN-and-pix2pix-master/datasets/pub_and_pri_test_road --name ROAD_pix2pix_road17 --model pix2pix --checkpoints_dir D:/AICUP/checkpoints/ROAD_pix2pix_road_g2_17 --results_dir D:/AICUP/AI_cup_demo_code/results/ROAD_pix2pix_road17 --direction AtoB --netG unet_512 --netD pixel --preprocess noneˋ
     會先報錯一次，再手動將權重 latest_net_G.pth 移動到 D:\AICUP\checkpoints\ROAD_pix2pix_road_g2_17\ROAD_pix2pix_road17 內， 測試完會放到 D:\AICUP\AI_cup_demo_code\results\ROAD_pix2pix_road17\ROAD_pix2pix_road17\test_latest\images
 
-    (訓練完的權重放在雲端硬碟的道路河流權重中，如需使用，放到 checkpoints\ROAD_pix2pix_river_g2_18\ROAD_pix2pix_river18 中)
-
+    (訓練完的權重放在雲端硬碟的道路權重中，如需使用，放到 checkpoints\ROAD_pix2pix_road_g2_17\ROAD_pix2pix_road17 中)
+    
     2. 使用 pix2pix_3(PC).ipynb，進行 "River Testing" ，在Visual Studio Code的終端(進虛擬環境)，輸入指令ˋpython D:/AICUP/AI_cup_demo_code/pytorch-CycleGAN-and-pix2pix-master/test.py --dataroot D:/AICUP/AI_cup_demo_code/pytorch-CycleGAN-and-pix2pix-master/datasets/pub_and_pri_test_river_Real_ESRGAN --name ROAD_pix2pix_river18 --model pix2pix --checkpoints_dir D:/AICUP/checkpoints/ROAD_pix2pix_river_g2_18 --results_dir D:/AICUP/AI_cup_demo_code/results/ROAD_pix2pix_river18 --direction AtoB --netG unet_512 --netD pixel --preprocess noneˋ
     會先報錯一次，再手動將權重 latest_net_G.pth 移動到 D:\AICUP\checkpoints\ROAD_pix2pix_river_g2_18\ROAD_pix2pix_river18 內，測試完會放到 D:\AICUP\AI_cup_demo_code\results\ROAD_pix2pix_river18\ROAD_pix2pix_river18\test_latest\images
 
-    (訓練完的權重放在雲端硬碟的道路權重中，如需使用，放到 checkpoints\ROAD_pix2pix_road_g2_17\ROAD_pix2pix_road17 中)
+    (訓練完的權重放在雲端硬碟的河流權重中，如需使用，放到 checkpoints\ROAD_pix2pix_river_g2_18\ROAD_pix2pix_river18 中)
 
     3. 使用 資料處理.ipynb， 進行 "提取出生圖片並改名且resize放到upload資料夾中"
 
