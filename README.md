@@ -25,6 +25,8 @@
 
 圖片轉換:
 
+    在 D:\AICUP\Real-ESRGAN-master 中，補一個"inputs"資料夾
+
     1. 雲端硬碟下載訓練圖片集 35_Competition 2_Training dataset_V3.zip 解壓縮放到 D:\AICUP\AI_cup_demo_code\pytorch-CycleGAN-and-pix2pix-master\datasets\
 
     2. 雲端硬碟下載公開測試圖片集 35_Competition 2_public testing dataset.zip 解壓縮放到 D:\AICUP\AI_cup_demo_code\pytorch-CycleGAN-and-pix2pix-master\datasets\
